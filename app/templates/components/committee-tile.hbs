@@ -1,0 +1,9 @@
+{{#if h2Clicked}}
+<ul>
+  {{#each model as |committee|}}
+    <li>{{committee.name}}</li>
+  {{/each}}
+</ul>
+{{else}}
+  <h2 {{action 'committeeLookup'}}>Click Here To See All Committees...</h2>
+{{/if}}
