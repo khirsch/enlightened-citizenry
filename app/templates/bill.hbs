@@ -1,0 +1,9 @@
+<ul>
+  <h4>List of Bills:</h4>
+  {{#each model as |bill|}}
+    <li><a href="/bill/{{committee.committee_id}}">
+      {{#if bill.short_title}} {{bill.short_title}}
+      {{else}} {{bill.official_title}}
+      {{/if}}</a></li>
+  {{/each}}
+</ul>
