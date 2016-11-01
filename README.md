@@ -49,6 +49,7 @@ Please send any questions or concerns to katrina.hirsch@gmail.com or elysia.aver
 * JavaScript (Ember.js/Handlebars.js/PhantomJS)
 * Node.js (NPM/Bower)
 * [Flaticon](http://flaticon.com)
+* [Sunlight Data Services](http://sunlightfoundation.com/api/)
 
 ### License
 
