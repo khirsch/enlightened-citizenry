@@ -1,6 +1,7 @@
 <ul>
-  <h4>List of Congressional Committees:</h4>
+  <h4>List of Congressional Committees</h4>
   {{#each model as |committee|}}
     <li><a href="/subcommittee/{{committee.committee_id}}">{{committee.name}}</a></li>
+    <br>
   {{/each}}
 </ul>

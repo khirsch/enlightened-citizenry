@@ -1,8 +1,9 @@
 {{#if model}}
   <ul>
-    <h4>Subcommittee(s):</h4>
+    <h4>Subcommittee(s)</h4>
     {{#each model as |subcommittee|}}
       <li>{{subcommittee.name}}</li>
+      <br>
     {{/each}}
   </ul>
 {{else}}

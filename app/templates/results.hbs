@@ -1,5 +1,12 @@
 <ul>
+  <h4>Your Local Legislators</h4>
   {{#each model as |legislator|}}
-    <li>{{legislator.first_name}} {{legislator.last_name}}<br>Contact: <a href={{legislator.contact_form}} target="_blank">{{legislator.contact_form}}</a></li>
+    <li>
+      {{legislator.title}} {{legislator.first_name}} {{legislator.last_name}}<br>
+      Website: <a href={{legislator.website}} target="_blank">{{legislator.website}}</a><br>
+      Email: {{legislator.oc_email}}<br>
+      Phone: {{legislator.phone}}
+    </li>
+    <br>
   {{/each}}
 </ul>
