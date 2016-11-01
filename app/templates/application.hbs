@@ -1,11 +1,14 @@
 
 <div class="container">
   <header id="header">
-    {{#link-to 'index'}}<img id="logo" src="/assets/images/ballot-box.svg" alt="Ghost List">{{/link-to}}
-    <h1>Enlightened Citizenry</h1>
+    <h1>Enlightened</h1>
+    {{#link-to 'index'}}<img id="logo" src="/assets/images/ballot-box.svg" alt="Enlightened Citizenry">{{/link-to}}
+    <h1>Citizenry</h1>
   </header>
-  
-  {{outlet}}
+
+  <div class="well">
+    {{outlet}}
+  </div>
 
   <footer id="footer">
     <h6>&copy; 2016 Enlightened Citizenry</h6>

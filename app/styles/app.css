@@ -1,16 +1,64 @@
 h1 {
   text-align: center;
-  margin-top: 0 !important;
+  margin: 0 auto 0 !important;
+}
+
+h4 {
+  text-align: center;
+  font-weight: normal;
+}
+
+a, a:visited {
+  color: #FFF;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #FFF;
+}
+
+.well {
+  width: 70%;
+  display: block;
+  margin: 20px auto;
+  background: #2f5ba3;
+  color: #FFF;
+  border-radius: 15px;
+}
+
+.form-control {
+  width: 40%;
+  display: block !important;
+  margin: auto !important;
+}
+
+.btn, .btn:hover {
+  background: #A72020;
+  color: #FFF;
+  box-shadow: 1px 1px #000;
+  display: block;
+  margin: auto;
 }
 
 #logo {
   width: 75px;
   height: auto;
   display: block;
-  margin: 20px auto 0;
+  margin: 0 auto;
+}
+
+#header {
+  margin-top: 30px;
 }
 
 #footer {
   text-align: center;
   margin-top: 30px;
+}
+
+#form {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
