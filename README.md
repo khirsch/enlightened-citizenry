@@ -1,11 +1,10 @@
-# Enlightened-citizenry
+# Enlightened Citizenry
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### By [Katrina Hirsch](https://github.com/khirsch) & [Elysia Avery Nason](https://github.com/ElysiaAvery)
 
-## Prerequisites
+## Description
 
-You will need the following things properly installed on your computer.
+Enlightened Citizenry is a web application that provides users with a variety of information about legislators, committees, recent and upcoming bills, etc via the Sunlight Foundation API.
 
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM)
@@ -15,7 +14,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone <https://github.com/khirsch/enlightened-citizenry>` this repository
 * `cd enlightened-citizenry`
 * `npm install`
 * `bower install`
@@ -24,10 +23,6 @@ You will need the following things properly installed on your computer.
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
 
 ### Running Tests
 
@@ -39,15 +34,28 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+## Known Bugs
 
-Specify what it takes to deploy your app.
+There are no known bugs at this time. To report a bug, please visit the [Github Issues page](https://github.com/khirsch/enlightened-citizenry/issues) for this repository.
 
-## Further Reading / Useful Links
+## Support & Contact Details
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+Please send any questions or concerns to katrina.hirsch@gmail.com or elysia.avery@gmail.com.
 
+## Technologies Used
+
+* HTML
+* CSS (Bootstrap)
+* JavaScript (Ember.js/Handlebars.js/PhantomJS)
+* Node.js (NPM/Bower)
+* [Flaticon](http://flaticon.com)
+
+### License
+
+Copyright &copy; 2016 Katrina Hirsch & Elysia Avery Nason
+
+_Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:_
+
+_The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software._
+
+_THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
