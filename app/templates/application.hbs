@@ -1,3 +1,13 @@
-<h2 id="title">Welcome to Ember</h2>
 
-{{outlet}}
+<div class="container">
+  <header id="header">
+    {{#link-to 'index'}}<img id="logo" src="/assets/images/ballot-box.svg" alt="Ghost List">{{/link-to}}
+    <h1>Enlightened Citizenry</h1>
+  </header>
+
+  {{outlet}}
+
+  <footer id="footer">
+    <h6>&copy; 2016 Enlightened Citizenry</h6>
+  </footer>
+</div>
