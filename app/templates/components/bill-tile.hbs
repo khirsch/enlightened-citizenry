@@ -1,0 +1,25 @@
+{{#if showBillInfo}}
+  <div>
+    <li {{action 'billInfoHide'}}>
+    {{#if bill.short_title}} {{bill.short_title}}
+    {{else}} {{bill.official_title}}
+    {{/if}}
+    </li>
+    <br>
+    <p>
+      <label for="sponsor">Sponsor:</label> <span>{{bill.sponsor.title}} {{bill.sponsor.first_name}} {{bill.sponsor.last_name}}</span>
+      <br>
+      <label for="committee">Committee(s):</label> <span>{{bill.committee_ids}}</span>
+      <br>
+      <label for="date">Date Introduced:</label> <span>{{bill.introduced_on}}</span>
+      <br>
+      <label for="version">Latest Version:</label> <span><a href={{bill.last_version.urls.html}} target="_blank">{{bill.last_version.urls.html}}</a></span>
+    </p>
+  </div>
+{{else}}
+  <li {{action 'billInfoShow'}}>
+  {{#if bill.short_title}} {{bill.short_title}}
+  {{else}} {{bill.official_title}}
+  {{/if}}
+  </li>
+{{/if}}
