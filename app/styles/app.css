@@ -1,6 +1,7 @@
 body {
   font-family: 'Karla', sans-serif;
 }
+
 h1 {
   text-align: center;
   margin: 0 auto 0 !important;
@@ -77,4 +78,8 @@ a:hover {
   display: block;
   margin: 0 auto;
   text-align: center;
+}
+
+#bills li {
+  cursor: pointer;
 }
